@@ -1,0 +1,9 @@
+Tp2/.vscode/
+.vscode/
+*.code-workspace
+
+*.o                     # Archivos objeto
+*.out                   # Archivos ejecutables en Linux/macOS
+*.exe                   # Ejecutables en Windows
+*.a                     # Archivos de biblioteca estática
+*.so                    # Archivos de biblioteca compartida
