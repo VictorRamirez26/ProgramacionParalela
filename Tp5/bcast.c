@@ -1,3 +1,15 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc bcast.c -o bcast
+    Comando ejecución: mpirun -np 4 ./bcast
+
+*/
+
 #include <stdio.h>
 #include <mpi.h>
 #include <unistd.h>
@@ -15,7 +27,7 @@ void bcast(int source, char *msg, int tam){
         }
     }else{
         MPI_Recv(msg, 1, MPI_CHAR, source, source, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                printf("%s desde nodo %d\n", msg, rank);
+                printf("%s, recibido en nodo %d\n", msg, rank);
     }
 }
 
