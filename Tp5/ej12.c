@@ -1,3 +1,14 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc ej12.c -o ej12
+    Comando ejecución: mpirun -np 4 ./ej12 num (entre 0 y 99)
+
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
