@@ -1,3 +1,14 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc ej13.c -o ej13
+    Comando ejecución: mpirun -np 2 ./ej13
+    Para cambiar las columnas a enviar o recibir cambiar los valores globales fila y columna
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
