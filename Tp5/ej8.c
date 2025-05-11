@@ -1,3 +1,14 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc ej8.c -o ej8
+    Comando ejecución: mpirun -np 4 ./ej8
+
+*/
 #include <stdio.h>
 #include <mpi.h>
 #include <unistd.h>
