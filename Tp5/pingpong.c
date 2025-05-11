@@ -1,3 +1,15 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc pingpong.c -o pingpong
+    Comando ejecución: mpirun -np 2 ./pingpong
+
+*/
+
 #include <stdio.h>
 #include <mpi.h>
 #include <unistd.h>

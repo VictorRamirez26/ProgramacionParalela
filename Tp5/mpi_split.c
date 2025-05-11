@@ -1,3 +1,15 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc mpi_split.c -o mpi_split
+    Comando ejecución: mpirun -np 16 ./mpi_split
+
+*/
+
 #include <stdio.h>     // Librería estándar para entrada/salida (printf)
 #include <mpi.h>       // Librería principal de MPI
 

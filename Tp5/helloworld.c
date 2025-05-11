@@ -1,3 +1,15 @@
+/*
+    Asignatura: Programación Paralela y Distribuida
+    Integrantes:
+        - Olivares, Agustín
+        - Ramirez, Victor
+        - Ruiz, Joaquin
+    Fecha: Abril de 2025
+    Comando compilación: mpicc helloworld.c -o helloworld
+    Comando ejecución: mpirun -np 4 ./helloworld
+
+*/
+
 #include <stdio.h>     // Librería estándar para entrada/salida (printf)
 #include <mpi.h>       // Librería principal de MPI
 #include <unistd.h>    // Necesaria para la función gethostname()
